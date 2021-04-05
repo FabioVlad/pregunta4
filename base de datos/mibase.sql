@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-04-2021 a las 04:26:49
+-- Tiempo de generación: 05-04-2021 a las 04:43:23
 -- Versión del servidor: 10.4.17-MariaDB
 -- Versión de PHP: 8.0.2
 
@@ -175,8 +175,25 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`ci`, `usuario`, `contrasena`, `id_rol`, `id_color`) VALUES
+('1111', 'metralla', '1111', 2, '27FF01'),
+('1212', 'fusil', '1212', 2, '27FF01'),
 ('1234', 'fabio', '1234', 1, '27FF01'),
-('2345', 'pablo', '2345', 2, '00FFF8');
+('2222', 'jimbo', '2222', 2, '27FF01'),
+('2345', 'pablo', '2345', 2, '00FFF8'),
+('3224', 'juan', '3224', 2, '27FF01'),
+('3232', 'jorge', '3232', 2, '27FF01'),
+('4222', 'carlos', '4222', 2, '27FF01'),
+('4345', 'pedro', '4345', 2, '27FF01'),
+('5454', 'maria', '5454', 2, '27FF01'),
+('5455', 'leo', '5455', 2, '27FF01'),
+('6565', 'talia', '6565', 2, '27FF01'),
+('6666', 'yorch', '6666', 2, '27FF01'),
+('7474', 'chimo', '7474', 2, '27FF01'),
+('7777', 'yayi', '7777', 2, '27FF01'),
+('8585', 'waca', '8585', 2, '27FF01'),
+('8888', 'toro', '8888', 2, '27FF01'),
+('9899', 'talio', '9899', 2, '27FF01'),
+('9999', 'fercho', '9999', 2, '27FF01');
 
 --
 -- Índices para tablas volcadas
